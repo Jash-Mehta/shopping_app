@@ -60,7 +60,7 @@ class _CartListState extends State<CartList> {
                                 data[index].image.toString(),
                                 fit: BoxFit.fill,
                                 height: 150.0,
-                                width: 100.0,
+                                width: 80.0,
                               ),
                             ),
                           ),

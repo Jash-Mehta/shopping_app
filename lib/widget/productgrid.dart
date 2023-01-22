@@ -61,7 +61,7 @@ class _ProductGridState extends State<ProductGrid> {
                             child: Image.network(
                               article.image,
                               fit: BoxFit.fill,
-                              height: 240.0,
+                              height: 198.0,
                               width: 230.0,
                             ),
                           ),
@@ -88,7 +88,7 @@ class _ProductGridState extends State<ProductGrid> {
                         title: Text(
                           article.title,
                           style: const TextStyle(
-                              fontSize: 16.0, fontWeight: FontWeight.w500),
+                              fontSize: 15.0, fontWeight: FontWeight.w500),
                         ),
                         trailing: Icon(Icons.favorite))
                   ]);
